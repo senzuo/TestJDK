@@ -1,0 +1,21 @@
+参考 concurrent/TestCmpRunCall.java
+
+    实现接口
+        callable  =>    Runnable
+
+    接口方法
+        call      =>    run
+
+    返回值
+        void      =>    Futurn
+
+    执行
+        start     =>    submit
+
+    主函数调用
+        new Thread(new Run()).start();
+
+        =>
+        // 线程池
+        ExecutorService executor = Executors.newCachedThreadPool();
+        Future<String> result = executor.submit(new Call());
