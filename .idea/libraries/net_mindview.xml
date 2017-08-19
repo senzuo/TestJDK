@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="net.mindview">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/doc/net.mindview.jar" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
