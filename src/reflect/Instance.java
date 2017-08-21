@@ -3,6 +3,10 @@ package reflect;
 /**
  * Created by 申卓 on 2017/8/21.
  */
+
+/**
+ * 实例化Class类对象
+ */
 public class Instance {
     public static void main(String[] args) {
         Class<?> demo1 = null;
